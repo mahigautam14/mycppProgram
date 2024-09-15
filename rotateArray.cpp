@@ -18,6 +18,6 @@ void printArray(vector<int>& num){
 int main()
 {
     vector<int> arr={4,5,6,34,3};
-    rotateArray(arr,2);
-    printArray(arr,2);
+    rotateArray(arr,3);
+    printArray(arr);
 }
