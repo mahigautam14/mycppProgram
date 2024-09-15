@@ -8,7 +8,7 @@ void rotateArray(vector<int>& num,int k){
     }
     num = temp;
 }
-void printArray(vector<int>& num,int k){
+void printArray(vector<int>& num){
     for(int i=0;i<num.size();i++)
     {
         cout<<num[i]<<" ";
